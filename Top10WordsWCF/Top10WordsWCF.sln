@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Top10WordsWCF", "Top10WordsWCF\Top10WordsWCF.csproj", "{D4D4DF45-45BC-4EDA-B20F-6DD8E22E65F9}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "TryItTop10Words(1)", "http://localhost:1384", "{929F7903-B90F-4315-A519-F52E3CEA980B}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_1384"
+		Debug.AspNetCompiler.PhysicalPath = "TryItTop10Words\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1384\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_1384"
+		Release.AspNetCompiler.PhysicalPath = "TryItTop10Words\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1384\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "TryItTop10Words\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{D4D4DF45-45BC-4EDA-B20F-6DD8E22E65F9} = {D4D4DF45-45BC-4EDA-B20F-6DD8E22E65F9}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4D4DF45-45BC-4EDA-B20F-6DD8E22E65F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4D4DF45-45BC-4EDA-B20F-6DD8E22E65F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4D4DF45-45BC-4EDA-B20F-6DD8E22E65F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4D4DF45-45BC-4EDA-B20F-6DD8E22E65F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{929F7903-B90F-4315-A519-F52E3CEA980B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{929F7903-B90F-4315-A519-F52E3CEA980B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{929F7903-B90F-4315-A519-F52E3CEA980B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{929F7903-B90F-4315-A519-F52E3CEA980B}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
